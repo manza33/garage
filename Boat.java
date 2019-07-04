@@ -9,6 +9,6 @@ public class Boat extends Vehicle {
 
     @Override
     public String soStuff() {
-        return  "Je suis " + brand + " et je fais glou glou !";
+        return  "Je suis " + this.brand + " et je fais glou glou !";
     }
 }
